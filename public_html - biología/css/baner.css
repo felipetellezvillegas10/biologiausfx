@@ -1,0 +1,96 @@
+/* Estilo general del banner */
+.bernoti {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    
+}
+
+/* Contenedor de los elementos */
+.ber-content {
+    display: flex;
+   
+}
+
+/* Elemento individual */
+.ber-item {
+    min-width: 30%;
+    display: flex;  
+ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, #0f3a4b, #2d4f55);
+    color: white;
+   margin: 0px 10px;
+    
+}
+
+/* Lado derecho */
+.ber-item-derecha {
+ 
+    padding: 20px;
+}
+
+.ber-item-derecha h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+      font-family: "Montserrat", sans-serif;
+}
+
+.ber-item-derecha h6 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: lighter;
+      align-items: center;
+      justify-content: center;
+    
+}
+
+.ber-item-derecha .ber-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #69686000;
+    color: white;
+    border-bottom: solid yellow 2.5px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+   
+}
+
+.ber-item-derecha .ber-boton:hover {
+    background-color: #066063;
+}
+
+/* Lado izquierdo */
+.ber-item-izquierda {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.ber-noti-img {
+    width: 80%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	
+}
+

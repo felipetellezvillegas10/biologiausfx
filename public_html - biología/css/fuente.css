@@ -1,0 +1,52 @@
+/*tipografias para plantillas*/
+
+@font-face
+{
+	font-family: slogan;
+	src: url(big_river_script_sample.otf);
+
+}
+@font-face
+{
+	font-family: fuente1;
+	src: url(fuente1.otf);
+
+}
+@font-face
+{
+	font-family: fuente4;
+	src: url(fuente4.ttf);
+
+}
+@font-face
+{
+	font-family: fuente3;
+	src: url(fuente3.ttf);
+
+}
+@font-face
+{
+	font-family: fuente2;
+	src: url(fuente2.ttf);
+}
+@font-face
+{
+	font-family: fuente5;
+	src: url(fuente5.otf);
+}
+@font-face
+{
+	font-family: fuente6;
+	src: url(fuente6.ttf);
+}
+@font-face
+{
+	font-family: fuente7;
+	src: url(fuente7.otf);
+}
+@font-face
+{
+	font-family: fuente8;
+	src: url(fuente8.ttf);
+}
+/*transiscion y hober*/
